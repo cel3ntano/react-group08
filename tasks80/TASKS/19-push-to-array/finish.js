@@ -6,3 +6,7 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const arr = ['hello', 14, true];
+arr.push("world", false);
+console.log(arr.length);

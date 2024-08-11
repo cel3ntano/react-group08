@@ -8,3 +8,12 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const arr = ["hello", 14, true];
+console.log(arr);
+// const newArr = arr.map((item, index, ) =>  index === 1 ? "world" : item)
+const newArr = arr.map((item, index, ) =>  {
+    return index === 1 ? "world" : item})
+console.log(newArr);
+
+
